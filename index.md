@@ -1,0 +1,167 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title> Atomix the Dev</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/favicon.png" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<section id="header">
+		<div class="inner">
+			<span class="icon solid major fa-code"></span>
+			<h1>Welcome to <strong>Atomix Dev</strong></h1>
+			<p>Currently, I have only learnt 3 languages, these currently consist of
+				<ul>
+					<p2>HTML, JavaScript and CSS</p2>
+				</ul>
+				However, I am also learning a few more languages
+			</p>
+			<ul class="actions special">
+				<li><a href="#three" class="button scrolly">My Projects</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- One -->
+	<section id="one" class="main style1">
+		<div class="container">
+			<div class="row gtr-150">
+				<div class="col-6 col-12-medium">
+					<header class="major">
+						<h2>Clorox Bot<br /></h2>
+					</header>
+					<p>Clorox is one of my first every discord bots in javascript, I have used many types of languages
+						but found discordjs to be better than python as it can access the api properly.
+						<em style="font-size: 11px"> (Also I hate Python)</em>
+					</p>
+				</div>
+				<div class="col-6 col-12-medium imp-medium">
+					<span class="image fit"><img
+							style="width: 256px; height: 256px; right: 25px; padding: 5px; margin: 5px"
+							src="images/CloroxBot.png" alt="" /><span style="font-size: 10px;"> a basic image I made in
+							photoshop</span></span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Two -->
+	<section id="two" class="main style2">
+		<div class="container">
+			<div class="row gtr-150">
+				<div class="col-6 col-12-medium">
+					<ul class="major-icons">
+						<li><span class="icon solid style1 major fa-code"></span></li>
+						<li><span class="icon solid style5 major fa-desktop"></span></li>
+					</ul>
+				</div>
+				<div class="col-6 col-12-medium">
+					<header class="major">
+						<h2>A bit about Atomix<br />
+						</h2>
+					</header>
+					<p>I am a 17 year old programmer from Australia, I am an oddball when it comes to game development.
+						Most of my games either get left alone for years or I finish it but dont release them</p>
+					<p>The languages I am currently learning are
+						<ul>
+							<li>C#</li>
+							<li>Java</li>
+							<li>PHP</li>
+							<li>SQL</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Three -->
+	<section id="three" class="main style1 special">
+		<div class="container">
+			<header class="major">
+				<h2>My Current Projects</h2>
+			</header>
+			<p>Currently, I only have three projects involving different types of discord bots written in different
+				languages</p>
+			<div class="row gtr-150">
+				<div class="col-4 col-12-medium">
+					<span class="image fit"><img src="images/newspaper.png" alt="" /></span>
+					<h3>Newspaper Bot</h3>
+					<p>Newspaper Bot, this one is the newest addition to my project list. It is written in JAVA using
+						The Cardinal System's Command Package for JAVA</p>
+					<ul class="actions special">
+						<li><a href="./pages/newspaper.html" class="button">More</a></li>
+					</ul>
+				</div>
+				<div class="col-4 col-12-medium">
+					<span class="image fit"><img src="images/putin.jpg" alt="" /></span>
+					<h3>Putin Bot</h3>
+					<p>Putin Bot, was made from a request from one of my friends. The bot has no commands as it was for
+						a meme but it written in discordpy</p>
+					<ul class="actions special">
+						<li><a href="./pages/putinbot.html" class="button">More</a></li>
+					</ul>
+				</div>
+				<div class="col-4 col-12-medium">
+					<span class="image fit"><img src="images/CloroxBot.png" alt="" /></span>
+					<h3>Clorox Bot</h3>
+					<p>CloroxBot, this bot is the most complete out of the three being written in discordjs, it can kick
+						and ban members and can update its own status</p>
+					<ul class="actions special">
+						<li><a href="./pages/cloroxbot.html" class="button">More</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Four -->
+	<section id="four" class="main style2 special">
+		<div class="container">
+			<ul class="actions special">
+				<li><a href="./pages/login/login.html" class="button wide primary">Sign In</a></li>
+			</ul>
+		</div>
+	</section>
+	<!-- Footer -->
+	<section id="footer">
+		<ul class="icons">
+			<li><a href="https://twitter.com/leafsalt" target="_blank" class="icon brands alt fa-twitter"><span
+						class="label">Twitter</span></a></li>
+			<li><a href="https://www.youtube.com/channel/UCqg_-Q5icGtBJ7mRk-OIqIQ" target="_blank"
+					class="icon brands alt fa-youtube"><span class="label">Youtube</span></a></li>
+			<li><a href="https://github.com/SlavicMan" target="_blank" class="icon brands alt fa-github"><span
+						class="label">GitHub</span></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; Atomix 2020</li>
+			<li style="font-size: 10px;"> Colorlib made the template </li>
+		</ul>
+	</section>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/firebase.js"></script>
+
+	
+
+
+
+</body>
+
+</html>
