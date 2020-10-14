@@ -1,0 +1,214 @@
+/* CSS files add styling rules to your content */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+.indexheader {
+  opacity: 100%;
+  font-style: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.divimg {
+  size: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  opacity: 100%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+}
+
+.block {
+  display: block;
+  mix-blend-mode: overlay;
+  border-radius: 25px;
+  width: 500px;
+  height: 100px;
+  padding: 1px;
+  background-color: gray;
+  background: rgba(128, 128, 128, 0.75);
+}
+
+.middle {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+}
+
+.topnav {
+  position: fixed;
+  padding: 16px;
+  top: 0px;
+  left: 0%;
+  display: block;
+  width: 1920px;
+  height: 50px;
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto Black', sans-serif;
+} 
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  opacity: 90%;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  z-index: 9999;
+  opacity: 90%;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  z-index: 9999;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+    z-index: 9999;
+  }
+  .sidenav a {
+    font-size: 18px;
+    z-index: 9999;
+  }
+}
+
+.openBtnBox {
+  position: absolute;
+  background: #3498DB;
+  border-radius: 10px;
+  width: 100px;
+  height: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transform: "translate(-50%, -50%)";
+}
+
+.bruh:hover {
+  background: #2980B9;
+}
+
+#mainImg {
+  position: fixed;
+  top: 80px;
+  right: 0px;
+  z-index: -1;
+}
+
+#loginBtn {
+  position: fixed;
+  top: 16px;
+  left: 160px;
+  border-radius: 10px;
+}
